@@ -37,12 +37,21 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="P87-bv-4bf">
                                 <rect key="frame" x="175" y="132" width="118" height="31"/>
+                                <connections>
+                                    <action selector="changeColor" destination="BYZ-38-t0r" eventType="valueChanged" id="HCX-ok-IxI"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7A0-mO-Ze9">
                                 <rect key="frame" x="175" y="210" width="118" height="31"/>
+                                <connections>
+                                    <action selector="changeColor" destination="BYZ-38-t0r" eventType="valueChanged" id="k92-QQ-Wd6"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2KO-Xz-kzW">
                                 <rect key="frame" x="175" y="290" width="118" height="31"/>
+                                <connections>
+                                    <action selector="changeColor" destination="BYZ-38-t0r" eventType="valueChanged" id="1Le-kR-G0r"/>
+                                </connections>
                             </slider>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HJP-Xe-gpe">
                                 <rect key="frame" x="74" y="387" width="240" height="128"/>
